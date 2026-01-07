@@ -25,12 +25,12 @@ const colors = [
 // **********************************************
 // Write a function called greet that accepts a single string OR an array of strings
 // It should print "Hello, <name>" for that single person OR greet each person in the array with the same format
-const greet = (name) => {
-    if (Array.isArray(name)) {
-        name.forEach(n => console.log(`Hello ${n}`));
+const greet = (person) => {
+    if (Array.isArray(person)) {
+        person.forEach(p => console.log(`Hello ${p}`));
     }
     else {
-        console.log(`Hello ${name}`);
+        console.log(`Hello ${person}`);
     }
 };
 greet("Chiemezie");
