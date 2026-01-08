@@ -57,7 +57,7 @@ type Worker = {
 } & { role: string }; // intersection type
 
 
-// interface with intersection
+// interface with intersection (Reopening interface)
 interface Manager {
   id: number;
   name: string;
@@ -89,3 +89,73 @@ const emp: Employee = {
 };
 
 console.log(emp);
+
+
+
+
+// Muliple inheritance
+
+/* 
+interface Person {
+    name: string
+}
+
+interface Employee {
+    readonly id: number
+    email: string
+}
+
+interface Engineer extendes Person, Employee {
+    level: string
+    languages: string[]
+}
+
+const engineer: Engineer = {
+    name: "Chiemezie",
+    id: 123,
+    email: "chi@email.com",
+    level: "Mid",
+    languages: ["JavaScript", "TypeScript"],
+};
+
+*/
+
+
+
+
+
+// Interfaces vs Types
+
+// Types with intersection (&)
+type Name = {
+    name: string;
+}
+
+type PersonUser = Name & {
+    age: Number;
+}
+
+const appUser: PersonUser = {
+    name: "John Doe",
+    age: 34,
+};
+
+console.log(appUser);
+
+
+
+// Interface with extends
+interface Traveler {
+    name: string;
+}
+
+interface TravelClient extends Traveler {
+    age: number;
+}
+
+const travelClient: TravelClient = {
+    name: "Max Lio",
+    age: 33,
+};
+
+console.log(travelClient);

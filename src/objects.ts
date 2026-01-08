@@ -142,7 +142,7 @@ interface Client {
     phone: string;
 }
 
-function getCLient({name, phone}: Client): string{
+function getCLient({name, phone}: Client): string {
     return `Client name is ${name} and phone number is ${phone}`;
 };
 
@@ -158,7 +158,7 @@ interface Worker extends Client {
     age: number;
     role: string;
     about: () => string;
-    // about(): string
+    // about(): string  // alternative way
     sayFavoriteFood: (favFood: string) => string;
 };
 
@@ -187,7 +187,7 @@ about() {
 
 console.log(newWorker);
 console.log(newWorker.about());
-console.log(newWorker.sayFavoriteFood("Bitter-Leaf and fufu"));
+console.log(newWorker.sayFavoriteFood("Bitter-Leaf soup and fufu"));
 
 
 
