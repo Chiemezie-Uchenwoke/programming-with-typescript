@@ -53,4 +53,21 @@ const bestStudent = {
     isSelfless: true,
 };
 console.log(bestStudent);
+function getCLient({ name, phone }) {
+    return `Client name is ${name} and phone number is ${phone}`;
+}
+;
+const firstClient = {
+    name: "John Sax",
+    phone: "+234559",
+};
+console.log(getCLient(firstClient));
+;
+const newWorker = {
+    name: "Chiemezie Uchenwoke",
+    phone: "+234",
+    age: 35,
+    role: "Fullstack Developer",
+};
+console.log(newWorker);
 //# sourceMappingURL=objects.js.map

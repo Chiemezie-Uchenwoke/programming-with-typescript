@@ -51,6 +51,9 @@ enum GamePadInput {
   Right = "RIGHT",
 }
 
+
+// # Const Enums
+
 // If you want to reduce the number of objects in your
 // JavaScript runtime, you can create a const enum.
 

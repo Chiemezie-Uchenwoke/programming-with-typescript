@@ -133,3 +133,37 @@ const bestStudent: BehavedStudent = {
     isSelfless: true,
 }
 console.log(bestStudent);
+
+
+
+
+interface Client {
+    name: string;
+    phone: string;
+}
+
+function getCLient({name, phone}: Client): string{
+    return `Client name is ${name} and phone number is ${phone}`;
+};
+
+const firstClient: Client = {
+    name: "John Sax",
+    phone: "+234559",
+};
+
+console.log(getCLient(firstClient));
+
+
+interface Workers extends Client {
+    age: number;
+    role: string;
+};
+
+const newWorker: Workers = {
+    name: "Chiemezie Uchenwoke",
+    phone: "+234",
+    age: 35,
+    role: "Fullstack Developer",
+};
+
+console.log(newWorker);

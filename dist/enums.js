@@ -43,6 +43,7 @@ var GamePadInput;
     GamePadInput["Left"] = "LEFT";
     GamePadInput["Right"] = "RIGHT";
 })(GamePadInput || (GamePadInput = {}));
+// # Const Enums
 // If you want to reduce the number of objects in your
 // JavaScript runtime, you can create a const enum.
 // A const enum's value is replaced by TypeScript during
