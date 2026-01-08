@@ -7,6 +7,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // and each option is assigned an increment by one. This is
 // useful when the value is not important.
 // It allows to name variables we want to reuse in our code. Example is status codes.
+// It ensures that only valid values are applied
 var CompassDirection;
 (function (CompassDirection) {
     CompassDirection[CompassDirection["North"] = 0] = "North";

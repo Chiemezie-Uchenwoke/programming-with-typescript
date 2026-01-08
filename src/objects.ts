@@ -154,16 +154,41 @@ const firstClient: Client = {
 console.log(getCLient(firstClient));
 
 
-interface Workers extends Client {
+interface Worker extends Client {
     age: number;
     role: string;
+    about: () => string;
+    // about(): string
+    sayFavoriteFood: (favFood: string) => string;
 };
 
-const newWorker: Workers = {
+const newWorker: Worker = {
     name: "Chiemezie Uchenwoke",
     phone: "+234",
     age: 35,
     role: "Fullstack Developer",
+    about: function(): string {
+        return `${this.name} is a ${this.role}`;
+    },
+    sayFavoriteFood: function(favFood: string): string {
+        return `${this.name}'s favorite food is ${favFood}`;
+    }
+
 };
 
+// alternative
+/* 
+
+about() {
+        return `${this.name} is a ${this.role}`;
+    },
+
+*/
+
 console.log(newWorker);
+console.log(newWorker.about());
+console.log(newWorker.sayFavoriteFood("Bitter-Leaf and fufu"));
+
+
+
+

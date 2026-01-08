@@ -8,6 +8,7 @@
 // useful when the value is not important.
 
 // It allows to name variables we want to reuse in our code. Example is status codes.
+// It ensures that only valid values are applied
 
 enum CompassDirection {
   North,

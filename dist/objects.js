@@ -68,6 +68,22 @@ const newWorker = {
     phone: "+234",
     age: 35,
     role: "Fullstack Developer",
+    about: function () {
+        return `${this.name} is a ${this.role}`;
+    },
+    sayFavoriteFood: function (favFood) {
+        return `${this.name}'s favorite food is ${favFood}`;
+    }
 };
+// alternative
+/*
+
+about() {
+        return `${this.name} is a ${this.role}`;
+    },
+
+*/
 console.log(newWorker);
+console.log(newWorker.about());
+console.log(newWorker.sayFavoriteFood("Bitter-Leaf and fufu"));
 //# sourceMappingURL=objects.js.map
