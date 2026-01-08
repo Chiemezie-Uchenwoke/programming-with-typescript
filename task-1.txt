@@ -1,0 +1,146 @@
+Task 1: User Profile Object
+
+Create a TypeScript object type that represents a User profile.
+
+Requirements:
+
+The user should have:
+
+an id (number)
+
+a username (string)
+
+an email (string)
+
+an isActive status (boolean)
+
+Create a variable that uses this type and assign it a valid object.
+
+👉 Covers: Type annotations, Object types
+
+
+
+Task 2: Product List
+
+Create an array that stores products.
+
+Requirements:
+
+Each product should have:
+
+id (number)
+
+name (string)
+
+price (number)
+
+Type the array properly.
+
+Add at least 3 products to the array.
+
+👉 Covers: Array types, Object types
+
+
+
+
+Task 3: Function to Calculate Total Price
+
+Write a function that calculates the total price of all products.
+
+Requirements:
+
+The function should:
+
+Accept the products array as a parameter
+
+Return a number
+
+Ensure all parameters and return values are typed.
+
+👉 Covers: Function parameter & return type annotations
+
+
+
+
+Task 4: Order Status with Union Types
+
+Create a type that represents an order status.
+
+Requirements:
+
+Allowed values:
+
+"pending"
+
+"paid"
+
+"shipped"
+
+"cancelled"
+
+Create a variable using this type.
+
+Try assigning both a valid and an invalid value (observe TypeScript’s error).
+
+👉 Covers: Union types
+
+
+
+
+Task 5: Function with Union Type Parameter
+
+Create a function that accepts a value that can be either a string or a number.
+
+Requirements:
+
+The function should:
+
+Accept one parameter that can be a string or a number
+
+Return a string message based on the input
+
+Handle both possible types correctly.
+
+👉 Covers: Union types, Function typing
+
+
+
+
+Task 6: Inventory Quantity Checker
+
+Create a function that checks product stock.
+
+Requirements:
+
+The function should accept:
+
+A product name (string)
+
+A quantity (number)
+
+It should return:
+
+A string describing whether the product is in stock, low on stock, or out of stock
+
+Properly annotate all parameters and return types.
+
+👉 Covers: Function typing, Type annotations
+
+
+
+
+Task 7: Mixed Data Array
+
+Create an array that can hold both numbers and strings.
+
+Requirements:
+
+Type the array correctly using union types.
+
+Add at least:
+
+2 numbers
+
+2 strings
+
+👉 Covers: Array types, Union types
