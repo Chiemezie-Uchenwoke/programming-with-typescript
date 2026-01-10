@@ -85,5 +85,5 @@ about() {
 */
 console.log(newWorker);
 console.log(newWorker.about());
-console.log(newWorker.sayFavoriteFood("Bitter-Leaf and fufu"));
+console.log(newWorker.sayFavoriteFood("Bitter-Leaf soup and fufu"));
 //# sourceMappingURL=objects.js.map

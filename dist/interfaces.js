@@ -27,4 +27,14 @@ const emp = {
     role: "Fullstack Developer",
 };
 console.log(emp);
+const appUser = {
+    name: "John Doe",
+    age: 34,
+};
+console.log(appUser);
+const travelClient = {
+    name: "Max Lio",
+    age: 33,
+};
+console.log(travelClient);
 //# sourceMappingURL=interfaces.js.map

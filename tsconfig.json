@@ -4,9 +4,9 @@
     // File Layout
     "rootDir": "./src",
     "outDir": "./dist",
-    "target": "ES2017",
+    "target": "ES2021",
     "lib": ["ES2017", "DOM"],
-    "module": "commonjs",
+    "module": "esnext",
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
@@ -18,8 +18,8 @@
 
     // Other Outputs
     "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
+    // "declaration": true,
+    // "declarationMap": true,
 
     // Stricter Typechecking Options
     "noUncheckedIndexedAccess": true,
@@ -35,11 +35,14 @@
 
     // Recommended Options
     "strict": true,
-    "jsx": "react-jsx",
+    // "jsx": "react-jsx",
     "verbatimModuleSyntax": true,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
-  }
+  }, 
+  // "files": ["index.ts"]
+  "include": ["src"],
+  // "exclude": ["src/file.ts"]
 }
