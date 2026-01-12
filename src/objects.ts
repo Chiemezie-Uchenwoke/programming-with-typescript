@@ -190,5 +190,16 @@ console.log(newWorker.about());
 console.log(newWorker.sayFavoriteFood("Bitter-Leaf soup and fufu"));
 
 
+interface Personal {
+    name: string;
+    desc: string;
+};
+
+const p1: Personal = {name: "Hello", desc: "World"};
+const p2: Personal = {...p1, name: "Beauty"};
+
+console.log(p1)
+console.log(p2)
+
 
 

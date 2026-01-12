@@ -86,4 +86,9 @@ about() {
 console.log(newWorker);
 console.log(newWorker.about());
 console.log(newWorker.sayFavoriteFood("Bitter-Leaf soup and fufu"));
+;
+const p1 = { name: "Hello", desc: "World" };
+const p2 = { ...p1, name: "Beauty" };
+console.log(p1);
+console.log(p2);
 //# sourceMappingURL=objects.js.map

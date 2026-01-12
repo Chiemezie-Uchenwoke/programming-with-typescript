@@ -6,7 +6,7 @@
     "outDir": "./dist",
     "target": "ES2021",
     "lib": ["ES2017", "DOM"],
-    "module": "esnext",
+    "module": "none",
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
@@ -36,7 +36,7 @@
     // Recommended Options
     "strict": true,
     // "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
+    // "verbatimModuleSyntax": true,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
