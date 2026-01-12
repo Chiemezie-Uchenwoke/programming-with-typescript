@@ -99,4 +99,47 @@ if (user1 instanceof User) {
 
 
 // Discriminated unions
+interface Rooster {
+    name: string;
+    weight: number;
+    age: number;
+    kind: "rooster";
+}
 
+interface Cow {
+    name: string;
+    weight: number;
+    age: number;
+    kind: "cow";
+}
+
+interface Pig {
+    name: string;
+    weight: number;
+    age: number;
+    kind: "pig";
+}
+
+type FarmAnimal = Pig | Rooster | Cow;
+
+function getFarmAnimalSound(animal: FarmAnimal) {
+    let response: string;
+    switch (animal.kind) {
+        case "pig": 
+            response = "It is a pig";
+            break;
+        case "cow":
+            response = "It is a cow";
+            break;
+        case "rooster":
+            response = "It is a rooster";
+            break;
+        default:
+            response = "Invalid kind value!";
+    }
+
+    return response;
+}
+
+const animalType: string = getFarmAnimalSound({name: "Rooster", weight: 100, age: 18, kind: "rooster"});
+console.log(animalType);

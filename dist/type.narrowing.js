@@ -56,6 +56,23 @@ const user1 = new User("Chiemezie", 35);
 if (user1 instanceof User) {
     console.log("TRUE");
 }
-// Type Predicate -- --
-// Discriminated unions
+function getFarmAnimalSound(animal) {
+    let response;
+    switch (animal.kind) {
+        case "pig":
+            response = "It is a pig";
+            break;
+        case "cow":
+            response = "It is a cow";
+            break;
+        case "rooster":
+            response = "It is a rooster";
+            break;
+        default:
+            response = "Invalid kind value!";
+    }
+    return response;
+}
+const animalType = getFarmAnimalSound({ name: "Rooster", weight: 100, age: 18, kind: "rooster" });
+console.log(animalType);
 //# sourceMappingURL=type.narrowing.js.map

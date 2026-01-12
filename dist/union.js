@@ -34,4 +34,23 @@ let mood = "Happy";
 mood = "Sad";
 // mood = "Angry"; //Error.
 console.log(mood);
+function getFarmAnimalSound(animal) {
+    let response;
+    switch (animal.kind) {
+        case "pig":
+            response = "It is a pig";
+            break;
+        case "cow":
+            response = "It is a cow";
+            break;
+        case "rooster":
+            response = "It is a rooster";
+            break;
+        default:
+            response = "Invalid kind value!";
+    }
+    return response;
+}
+const animalType = getFarmAnimalSound({ name: "Rooster", weight: 100, age: 18, kind: "rooster" });
+console.log(animalType);
 //# sourceMappingURL=union.js.map
