@@ -30,4 +30,3 @@ function getProfit(movie) {
 }
 console.log(getProfit(cats));
 console.log(getProfit(dune));
-//# sourceMappingURL=objectsExercise.js.map

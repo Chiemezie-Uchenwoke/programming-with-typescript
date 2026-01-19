@@ -91,4 +91,3 @@ const p1 = { name: "Hello", desc: "World" };
 const p2 = { ...p1, name: "Beauty" };
 console.log(p1);
 console.log(p2);
-//# sourceMappingURL=objects.js.map

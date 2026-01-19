@@ -43,4 +43,3 @@ const getOrderStatus = (orderStatus) => {
 console.log(getOrderStatus(OrderStatus.Pending));
 console.log(getOrderStatus(OrderStatus.Paid));
 console.log(getOrderStatus(OrderStatus.Shipped));
-//# sourceMappingURL=task-2.js.map

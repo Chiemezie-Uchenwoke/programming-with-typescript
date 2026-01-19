@@ -37,4 +37,3 @@ const travelClient = {
     age: 33,
 };
 console.log(travelClient);
-//# sourceMappingURL=interfaces.js.map

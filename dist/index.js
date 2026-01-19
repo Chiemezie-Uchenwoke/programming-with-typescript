@@ -49,4 +49,3 @@ const addNumbers = (x, y) => {
     const result = x + y;
     console.log(result);
 };
-//# sourceMappingURL=index.js.map

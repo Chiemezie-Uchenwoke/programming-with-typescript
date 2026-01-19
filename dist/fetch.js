@@ -21,4 +21,3 @@ const fetchRandomUser = async () => {
     }
 };
 fetchRandomUser();
-//# sourceMappingURL=fetch.js.map

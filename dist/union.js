@@ -53,4 +53,3 @@ function getFarmAnimalSound(animal) {
 }
 const animalType = getFarmAnimalSound({ name: "Rooster", weight: 100, age: 18, kind: "rooster" });
 console.log(animalType);
-//# sourceMappingURL=union.js.map

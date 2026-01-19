@@ -41,4 +41,3 @@ const personArray = [
 // const personsLength = (<Person[]>personArray).length;
 const personsLength = personArray.length;
 console.log(personsLength);
-//# sourceMappingURL=casting.js.map

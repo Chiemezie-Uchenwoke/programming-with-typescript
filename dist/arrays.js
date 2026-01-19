@@ -36,4 +36,3 @@ const allNums = [19, 27, 13, 34, 45];
 for (let number of allNums) {
     console.log(number);
 }
-//# sourceMappingURL=arrays.js.map

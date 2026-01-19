@@ -54,4 +54,16 @@ console.log(admin1.playerScore);
 console.log(admin1.adminName);
 admin1.changeScore(50);
 console.log(admin1.getScore());
-//# sourceMappingURL=classes.js.map
+class Login {
+    constructor(fullname, email, password) {
+        this.fullname = fullname;
+        this.email = email;
+        this.password = password;
+    }
+    LogUser() {
+        return `${this.fullname} logged in successful`;
+    }
+}
+const user1 = new Login("John doe", "john@email.com", "123456");
+console.log(user1);
+console.log(user1.LogUser());

@@ -47,4 +47,3 @@ console.log(checkProductStock("smart watch", 24));
 // Task 7
 const myArrayList = [1, 2, "Apple", "Gauva"];
 console.log(myArrayList);
-//# sourceMappingURL=task-1.js.map

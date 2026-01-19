@@ -26,4 +26,3 @@ const allProducts = [
     { name: "Mouse Pad", price: 23.00 },
 ];
 console.log(getTotal(allProducts));
-//# sourceMappingURL=arraysExercise.js.map

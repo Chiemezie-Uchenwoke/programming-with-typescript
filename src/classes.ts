@@ -73,3 +73,32 @@ console.log(admin1.playerScore);
 console.log(admin1.adminName);
 admin1.changeScore(50);
 console.log(admin1.getScore());
+
+
+
+// classes with implements
+interface Credentials {
+    fullname: string;
+    email: string;
+    password: string;
+}
+
+class Login implements Credentials {
+    fullname: string;
+    email: string;
+    password: string;
+    
+    constructor(fullname: string, email: string, password: string) {
+        this.fullname = fullname;
+        this.email = email;
+        this.password = password;
+    }
+
+    LogUser() {
+        return `${this.fullname} logged in successful`;
+    }
+}
+
+const user1 = new Login("John doe", "john@email.com", "123456");
+console.log(user1);
+console.log(user1.LogUser());

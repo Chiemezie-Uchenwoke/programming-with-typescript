@@ -26,4 +26,3 @@ const project1 = ["Stockify App", 12];
 const project2 = ["CodeFoundations", 8];
 console.log(`${worker1.name} is assigned to ${project1[0]} for ${project1[1]} weeks.`);
 console.log(`${worker1.name} is assigned to ${project2[0]} for ${project2[1]} weeks.`);
-//# sourceMappingURL=objects-2.js.map

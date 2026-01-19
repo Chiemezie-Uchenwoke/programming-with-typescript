@@ -91,4 +91,3 @@ class Playlist {
         return this.queue;
     }
 }
-//# sourceMappingURL=generics.js.map

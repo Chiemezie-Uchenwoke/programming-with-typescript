@@ -13,4 +13,3 @@ const twoFer = (person = "you") => {
 };
 const result = twoFer("Chiemezie");
 console.log(result);
-//# sourceMappingURL=exercise.js.map

@@ -30,4 +30,3 @@ console.log(firstFulltimeWorker.getDuration());
 console.log(firstFulltimeWorker.getPay());
 // constructor(public first: string, public last: string) {}
 // using public creates this.first = first, etc.
-//# sourceMappingURL=abstractClasses.js.map

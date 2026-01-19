@@ -81,4 +81,3 @@ var OrderStatus;
 ;
 console.log(OrderStatus);
 console.log(OrderStatus.Pending);
-//# sourceMappingURL=enums.js.map
